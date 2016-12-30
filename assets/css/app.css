@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "Charis";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Charis"), url("../fonts/Charis/CharisSIL-R.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Charis Bold"), url("../fonts/Charis/CharisSIL-B.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Charis Italic"), url("../fonts/Charis/CharisSIL-I.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis";
+  font-weight: 700;
+  font-style: italic;
+  src: local("Charis Bold Italic"), url("../fonts/Charis/CharisSIL-BI.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Trocchi";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Trocchi"), url("../fonts/Trocchi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto Condensed"), url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Roboto Condensed Light"), url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Roboto Condensed Bold"), url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+html,
+body { }
+
+body {
+    color: #472C6F;
+    font-family: "Charis", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.35;
+    background: transparent url('../img/halftone-bg_light1.jpg') repeat 0 bottom fixed;
+    background-size: cover;
+}
+
+section >.row {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #472C6F;
+}
+
+p a {
+  border-bottom: 2px solid #e4cdae;
+}
+
+a:hover {
+  color: #654d9b;
+}
+
+section .row .column {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    color: #472C6F;
+    background-color: #fff;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .4);
+}
+
+#para-que .row:first-child .column,
+.row .column.title {
+    color: #472C6F;
+    background: transparent;
+    box-shadow: 0 0 0 0 transparent;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section .row .column > * {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.row .title {
+    background-color: transparent;
+}
+
+.column h2 {
+    font-size: 3.6em;
+}
+
+.title.small-12 h2 {
+    text-align: center;
+    margin-top: 2.8rem;
+}
+
+.row .title h4 {
+    font-size: 120%;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    background: #472C6F;
+	  border-radius: 50%;
+	  padding: 8rem 0;
+}
+
+h4 span { display: none; }
+
+.has-tip {
+}
+
+.menu { font-family: "Trocchi"; }
+
+.menu li a {
+    display: inline-block;
+    color: #472C6F;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+	  border-radius: 30px;
+	  padding: 1rem 2rem;
+    margin: 0 10px;
+}
+
+.menu li a.active {
+    background-color: #e4cdae;
+}
+
+/* http://www.colourlovers.com/palette/4240985/Lavender_Sun
+*/
+
+.answer-quote .question {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.answer-quote .callout .question {
+  margin-top: 0;
+}
+
+.callout {
+    background-color: transparent;
+    border: 0;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    transition: height 0.3s ease-in-out 0s;
+}
+
+.answer-quote .question {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.answer-quote blockquote {
+    color: #472C6F;
+    padding-top: 0;
+    border-left: 1px solid #e4cdae;
+}
+
+.answer-quote cite {
+    color: #472C6F;
+}
+
+.answer-quote .answer {
+  font-style: italic;
+}
+
+table {
+  font-family: "Roboto Condensed", Roboto, "DejaVu Sans", sans-serif;
+  font-weight: 300;
+}
+
+thead {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+table .categoria span {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
+
+table .cidadania span { background-color: #FFC58D; }
+table .mapas span { background-color: #9BF49A; }
+table .jogos span { background-color: #FFF988; }
+table .bases-dados span { background-color: #9DBAFF; }
+table .linguas span { background-color: #F6E1EF; }
+
+
+table .tipo {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table .tipo span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 0.65rem;
+  width: 0.65rem;
+  border-radius: 50px;
+}
+
+table .tipo span.active-cell {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+table .tipo span.empty-cell {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
